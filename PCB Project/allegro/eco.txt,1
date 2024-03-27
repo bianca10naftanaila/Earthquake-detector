@@ -1,0 +1,174 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../allegro/PROIECT_TIE_DETECTOR_DE_CUTREMUR.brd                          |
+|                                                    Thu Jun 01 00:21:12 2023  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  +9V          pins ADDED TO this new net
+                                 IC2.4          IC2.8          J1.2           
+                                 R2.1           R6.1           R8.1           
+                                 U3.7           VR1.1          VR1.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C2.2           D1.2           IC2.1          
+                                 J1.1           PZ1.2          R3.2           
+                                 T1.1           U2.2           U3.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00855       pins ADDED TO this new net
+                                 R2.2           R3.1           U3.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00880       pins ADDED TO this new net
+                                 C1.2           U2.1           VR1.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00920       pins ADDED TO this new net
+                                 C2.1           IC2.6          IC2.7          
+                                 R8.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00981       pins ADDED TO this new net
+                                 IC2.2          R6.2           T1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01004       pins ADDED TO this new net
+                                 R5.2           T1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01012       pins ADDED TO this new net
+                                 R4.2           R5.1           U3.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01016       pins ADDED TO this new net
+                                 R1.2           R4.1           U3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01043       pins ADDED TO this new net
+                                 C1.1           R1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01268       pins ADDED TO this new net
+                                 IC2.3          PZ1.1          R7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01306       pins ADDED TO this new net
+                                 D1.1           R7.2           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../allegro/PROIECT_TIE_DETECTOR_DE_CUTREMUR.brd                          |
+|                                                    Thu Jun 01 00:21:12 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BC548_SOT23_3_BC548
+ CAP NP_CAPCK06_220NF
+ CAP POL_CAP196_100UF/16V
+ CON2_JUMPER2_CON2
+ LED_CAP196_LED
+ LM741_2_DIP8_3_LM741
+ NE555_4_SOIC8_NE555
+ PIEZO BUZZER_0_JUMPER2_BUZZER
+ PIEZO ELEMENT_JUMPER2_PIEZO ELE
+ POT_POT_10K
+ R_RES400_1K
+ R_RES400_4.7K
+ R_RES400_12K
+ R_RES1005X40N_0402_1M
+ R_RES1005X40N_0402_150K
+ R_RES1608X50N_0603_100K
+ R_RES1608X50N_0603_100OHM
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../allegro/PROIECT_TIE_DETECTOR_DE_CUTREMUR.brd                          |
+|                                                    Thu Jun 01 00:21:12 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP NP_CAPCK06_220NF  
+ C2                  CAP POL_CAP196_100UF/16V 
+ D1                  LED_CAP196_LED        
+ IC2                 NE555_4_SOIC8_NE555   
+ J1                  CON2_JUMPER2_CON2     
+ PZ1                 PIEZO BUZZER_0_JUMPER2_BUZZER 
+ R1                  R_RES400_12K          
+ R2                  R_RES400_12K          
+ R3                  R_RES400_4.7K         
+ R4                  R_RES1005X40N_0402_1M 
+ R5                  R_RES1005X40N_0402_150K 
+ R6                  R_RES400_1K           
+ R7                  R_RES1608X50N_0603_100OHM 
+ R8                  R_RES1608X50N_0603_100K 
+ T1                  BC548_SOT23_3_BC548   
+ U2                  PIEZO ELEMENT_JUMPER2_PIEZO ELE 
+ U3                  LM741_2_DIP8_3_LM741  
+ VR1                 POT_POT_10K           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../allegro/PROIECT_TIE_DETECTOR_DE_CUTREMUR.brd                          |
+|                                                    Thu Jun 01 00:21:12 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C1.2                           SECTION        
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           SECTION        
+ D1.2                           PRIM_FILE      .\pstchip.dat
+ D1.2                           SECTION        
+ IC2.8                          PRIM_FILE      .\pstchip.dat
+ IC2.8                          SECTION        
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J1.2                           SECTION        
+ PZ1.2                          PRIM_FILE      .\pstchip.dat
+ PZ1.2                          SECTION        
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           SECTION        
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           SECTION        
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           SECTION        
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           SECTION        
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           SECTION        
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           SECTION        
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           SECTION        
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           SECTION        
+ T1.1                           PRIM_FILE      .\pstchip.dat
+ T1.1                           SECTION        
+ U2.2                           PRIM_FILE      .\pstchip.dat
+ U2.2                           SECTION        
+ U3.4                           PRIM_FILE      .\pstchip.dat
+ U3.4                           SECTION        
+ VR1.2                          PRIM_FILE      .\pstchip.dat
+ VR1.2                          SECTION        
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../allegro/PROIECT_TIE_DETECTOR_DE_CUTREMUR.brd                          |
+|                                                    Thu Jun 01 00:21:12 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      46                                        |
+|       Comp definitions added:      17                                        |
+|       Components added      :      18                                        |
+|       Slot property added   :      36                                        |
+|                                                                              |
+|   Total ECO changes reported:     117                                        |
+|------------------------------------------------------------------------------|

@@ -1,0 +1,31 @@
+  Revised: Friday, May 12, 2023
+          Revision: ?
+
+
+
+
+
+
+
+Bill Of Materials            May 12,2023      19:24:12	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	C1	220nF
+2	1	C2	100uF/16V
+3	1	D1	LED
+4	1	IC1	LM741
+5	1	IC2	NE555
+6	1	J1	CON2
+7	1	PZ1	buzzer
+8	2	R1,R2	12k
+9	1	R3	4.7k
+10	1	R4	1M
+11	1	R5	150k
+12	1	R6	1k
+13	1	R7	100ohm
+14	1	R8	100k
+15	1	T1	BC548
+16	1	U2	piezo element
+17	1	VR1	10k

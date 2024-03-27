@@ -1,0 +1,190 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Jun-01-2023 at 01:25:06 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='PROIECT_TIE_DETECTOR_DE_CUTREMUR';
+ POST_TIME='Jul 30 2017 03:29:02';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_CAPCK06_220NF':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS576@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins576@discrete.\cap np.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins576@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP POL_CAP196_100UF/16V':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS789@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins789@discrete.\cap pol.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins789@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS3559@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins3559@discrete.\led.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins3559@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ IC2 'NE555_4_SOIC8_NE555':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS251@PROIECT_TIE_DETECTOR_DE_CUTREMUR.NE555_4.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins251@proiect_tie_detector_de_cutremur.\ne555_4.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins251@proiect_tie_detector_de_cutremur.\ne555_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS1703@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins1703@connector.\con2.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins1703@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ PZ1 'PIEZO BUZZER_0_JUMPER2_BUZZER':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS3301@PROIECT_TIE_DETECTOR_DE_CUTREMUR.PIEZO BUZZER_0.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins3301@proiect_tie_detector_de_cutremur.\piezo buzzer_0.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins3301@proiect_tie_detector_de_cutremur.\piezo buzzer_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES400_12K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS601@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins601@discrete.\r.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins601@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES400_12K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS626@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins626@discrete.\r.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins626@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES400_4.7K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS642@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins642@discrete.\r.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins642@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_SMR1206_1M':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS658@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins658@discrete.\r.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins658@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_SMR1206_150K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS703@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins703@discrete.\r.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins703@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS732@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins732@discrete.\r.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins732@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_RES1608X50N_0603_100OHM':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS748@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins748@discrete.\r.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins748@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_RES1608X50N_0603_100K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS764@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins764@discrete.\r.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins764@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ T1 'BC548_SOT23_3_BC548':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS491@TRANSISTOR.BC548.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins491@transistor.\bc548.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins491@transistor.\bc548.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'PIEZO ELEMENT_JUMPER2_PIEZO ELE':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS3648@PIEZOELEMENT.PIEZO ELEMENT.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins3648@piezoelement.\piezo element.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins3648@piezoelement.\piezo element.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'LM741_2_DIP8_3_LM741':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS6253@PROIECT_TIE_DETECTOR_DE_CUTREMUR.LM741_2.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins6253@proiect_tie_detector_de_cutremur.\lm741_2.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins6253@proiect_tie_detector_de_cutremur.\lm741_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ VR1 'POT_POT_10K':;
+
+SECTION_NUMBER 1
+ '@PROIECT_TIE_DETECTOR_DE_CUTREMUR.SCHEMATIC1(SCH_1):INS2270@DISCRETE.POT.NORMAL(CHIPS)':
+ C_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):ins2270@discrete.\pot.normal\(chips)',
+ P_PATH='@proiect_tie_detector_de_cutremur.schematic1(sch_1):page1_ins2270@discrete.\pot.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

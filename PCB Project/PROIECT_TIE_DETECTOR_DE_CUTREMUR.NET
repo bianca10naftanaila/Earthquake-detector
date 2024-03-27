@@ -1,0 +1,101 @@
+Wire List
+
+                                              Revised: Monday, May 15, 2023
+C:\USERS\BIANCA\DESKTOP\PROIECT TIE SCHEMA ELERevision: ?
+
+
+
+
+
+
+<<< Component List >>>
+220nF                         C1        CAPCK06
+100uF/16V                     C2        CAP196
+LED                           D1        CAP196
+LM741                         IC1       DIP8_3
+NE555                         IC2       SOIC8
+CON2                          J1        JUMPER2
+buzzer                        PZ1       JUMPER2
+12k                           R1        RES400
+12k                           R2        RES400
+4.7k                          R3        RES400
+1M                            R4        RES1005X40N_0402
+150k                          R5        RES1005X40N_0402
+1k                            R6        RES400
+100ohm                        R7        RES1608X50N_0603
+100k                          R8        RES1608X50N_0603
+BC548                         T1        SOT23_3
+piezo element                 U2        JUMPER2
+10k                           VR1       POT
+
+<<< Wire List >>>
+
+  NODE  REFERENCE    PIN #   PIN NAME           PIN TYPE       PART VALUE
+
+[00001] +9V
+        IC1             7       V+              Power          LM741
+        IC2             4       RST             Input          NE555
+        IC2             8       VCC             Power          NE555
+        R2              1       1               Passive        12k
+        R6              1       1               Passive        1k
+        R8              1       1               Passive        100k
+        J1              2       2               Passive        CON2
+        VR1             1       A               Passive        10k
+        VR1             2       WIPER           Passive        10k
+
+[00002] GND
+        IC1             4       V-              Power          LM741
+        IC2             1       GND             Power          NE555
+        T1              1       EMITTER         Passive        BC548
+        R3              2       2               Passive        4.7k
+        C2              2       2               Passive        100uF/16V
+        J1              1       1               Passive        CON2
+        PZ1             2       -               Passive        buzzer
+        D1              2       CATHODE         Passive        LED
+        U2              2       pin2            Passive        piezo element
+
+[00003] N00855
+        R2              2       2               Passive        12k
+        R3              1       1               Passive        4.7k
+
+[00004] N00880
+        C1              2       2               Passive        220nF
+        VR1             3       B               Passive        10k
+        U2              1       pin1            Passive        piezo element
+
+[00005] N00920
+        IC2             6       THR             Input          NE555
+        IC2             7       DSCHG           Passive        NE555
+        R8              2       2               Passive        100k
+        C2              1       1               Passive        100uF/16V
+
+[00006] N00981
+        IC2             2       TRG             Input          NE555
+        T1              3       COLLECTOR       Passive        BC548
+        R6              2       2               Passive        1k
+
+[00007] N01004
+        T1              2       BASE            Input          BC548
+        R5              2       2               Passive        150k
+
+[00008] N01012
+        R4              2       2               Passive        1M
+        R5              1       1               Passive        150k
+
+[00009] N01016
+        R1              2       2               Passive        12k
+        R4              1       1               Passive        1M
+
+[00010] N01043
+        C1              1       1               Passive        220nF
+        R1              1       1               Passive        12k
+
+[00011] N01268
+        IC2             3       OUT             Output         NE555
+        R7              1       1               Passive        100ohm
+        PZ1             1       +               Passive        buzzer
+
+[00012] N01306
+        R7              2       2               Passive        100ohm
+        D1              1       ANODE           Passive        LED
+

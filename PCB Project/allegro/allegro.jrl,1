@@ -1,0 +1,14 @@
+\t (00:00:09) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:09)     Journal start - Thu Jun 01 00:21:22 2023
+\t (00:00:09)         Host=DESKTOP-UHPB5RD User=Bianca Pid=964 CPUs=8
+\t (00:00:09) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe -mpssession Bianca C:\USERS\BIANCA\DESKTOP\PROIECT TIE SCHEMA ELECTRICA\allegro\PROIECT_TIE_DETECTOR_DE_CUTREMUR.brd
+\t (00:00:09) 
+   (00:00:09) Loading axlcore.cxt 
+\t (00:00:09) Opening existing design...
+\d (00:00:12) Design opened: C:/USERS/BIANCA/DESKTOP/PROIECT TIE SCHEMA ELECTRICA/allegro/PROIECT_TIE_DETECTOR_DE_CUTREMUR.brd
+\i (00:00:12) trapsize 7028
+\i (00:00:12) trapsize 7197
+\i (00:00:12) trapsize 11789
+\i (00:00:12) generaledit 
+\i (00:00:16) exit 
+\t (00:00:16)     Journal end - Thu Jun 01 00:21:29 2023

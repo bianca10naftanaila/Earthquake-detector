@@ -1,0 +1,94 @@
+`F  1.00 SCHEMATIC1
+`B "1" "1" "A" "Monday, May 15, 2023" "C:\USERS\BIANCA\DESKTOP\PROIECT TIE SCHEMA ELECTRICA\PROIECT_TIE_DETECTOR_DE_CUTREMUR.DSN" "?"
+"" ""
+""
+""
+""
+""
+`P S "+9V"
+`P S "GND"
+`S "N00855" 100
+`S "N00880" 102
+`S "N00920" 104
+`S "N00981" 105
+`S "N01004" 106
+`S "N01012" 108
+`S "N01016" 109
+`S "N01043" 110
+`S "N01268" 111
+`S "N01306" 113
+`E PIEZOELEMENT.LIB
+`E CONNECTOR.LIB
+`E DISCRETE.LIB
+`E TRANSISTOR.LIB
+`E PROIECT_TIE_DETECTOR_DE_CUTREMUR.LIB
+`I R "piezo element" PIEZOELEMENT.LIB "piezo element" 00000E4A U2  [1]
+"" "" "" "" "" "" "" "JUMPER2" "JUMPER2"
+( "pin1" 1 P ) ( "pin2" 2 P ) 
+`I R "12k" DISCRETE.LIB "R" 00000263 R1  [1]
+"" "" "" "" "" "" "" "RES400" "RES400"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "12k" DISCRETE.LIB "R" 0000027C R2  [1]
+"" "" "" "" "" "" "" "RES400" "RES400"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "4.7k" DISCRETE.LIB "R" 0000028C R3  [1]
+"" "" "" "" "" "" "" "RES400" "RES400"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "1M" DISCRETE.LIB "R" 0000029C R4  [1]
+"" "" "" "" "" "" "" "RES1005X40N_0402" "RES1005X40N_0402"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "150k" DISCRETE.LIB "R" 000002C9 R5  [1]
+"" "" "" "" "" "" "" "RES1005X40N_0402" "RES1005X40N_0402"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "1k" DISCRETE.LIB "R" 000002E6 R6  [1]
+"" "" "" "" "" "" "" "RES400" "RES400"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "100ohm" DISCRETE.LIB "R" 000002F6 R7  [1]
+"" "" "" "" "" "" "" "RES1608X50N_0603" "RES1608X50N_0603"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "100k" DISCRETE.LIB "R" 00000306 R8  [1]
+"" "" "" "" "" "" "" "RES1608X50N_0603" "RES1608X50N_0603"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "220nF" DISCRETE.LIB "CAP NP" 0000024A C1  [1]
+"" "" "" "" "" "" "" "CAPCK06" "CAPCK06"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "100uF/16V" DISCRETE.LIB "CAP POL" 0000031F C2  [1]
+"" "" "" "" "" "" "" "CAP196" "CAP196"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "buzzer" PROIECT_TIE_DETECTOR_DE_CUTREMUR.LIB "PIEZO BUZZER_0" 00000CEF PZ1  [1]
+"" "" "" "" "" "" "" "JUMPER2" "JUMPER2"
+( "-" 2 P ) ( "+" 1 P ) 
+`I R "LM741" PROIECT_TIE_DETECTOR_DE_CUTREMUR.LIB "LM741_0" 0000006E IC1  [1]
+"" "" "" "" "" "" "" "DIP8_3" "DIP8_3"
+( "+IN" 3 I ) ( "-IN" 2 I ) ( "OUT" 6 O ) ( "V+" 7 S ) ( "OFFSET1" 1 P ) 
+( "V-" 4 S ) ( "OFFSET2" 5 P ) ( "NC" 8 P ) 
+`I R "NE555" PROIECT_TIE_DETECTOR_DE_CUTREMUR.LIB "NE555_3" 00000111 IC2  [1]
+"" "" "" "" "" "" "" "SOIC8" "SOIC8"
+( "OUT" 3 O ) ( "RST" 4 I ) ( "VCC" 8 S ) ( "GND" 1 S ) ( "CV" 5 I ) 
+( "TRG" 2 I ) ( "THR" 6 I ) ( "DSCHG" 7 P ) 
+`I R "10k" DISCRETE.LIB "POT" 000008EA VR1  [1]
+"" "" "" "" "" "" "" "POT" "POT"
+( "A" 1 P ) ( "B" 3 P ) ( "WIPER" 2 P ) 
+`I R "CON2" CONNECTOR.LIB "CON2" 000006B1 J1  [1]
+"" "" "" "" "" "" "" "JUMPER2" "JUMPER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "LED" DISCRETE.LIB "LED" 00000DF1 D1  [1]
+"" "" "" "" "" "" "" "CAP196" "CAP196"
+( "ANODE" 1 P ) ( "CATHODE" 2 P ) 
+`I R "BC548" TRANSISTOR.LIB "BC548" 000001F7 T1  [1]
+"" "" "" "" "" "" "" "SOT23_3" "SOT23_3"
+( "COLLECTOR" 3 P ) ( "EMITTER" 1 P ) ( "BASE" 2 I ) 
+`J ( R R3 1 P ) ( R R2 2 P ) ( S "N00855" 100 ) 
+`J ( R C1 2 P ) ( R VR1 3 P ) ( R U2 1 P ) ( S "N00880" 102 ) 
+`J ( R C2 1 P ) ( R R8 2 P ) ( R IC2 7 P ) ( R IC2 6 I ) ( S "N00920" 104 ) 
+`J ( R R6 2 P ) ( R T1 3 P ) ( R IC2 2 I ) ( S "N00981" 105 ) 
+`J ( R R5 2 P ) ( R T1 2 I ) ( S "N01004" 106 ) 
+`J ( R R5 1 P ) ( R R4 2 P ) ( S "N01012" 108 ) 
+`J ( R R4 1 P ) ( R R1 2 P ) ( S "N01016" 109 ) 
+`J ( R R1 1 P ) ( R C1 1 P ) ( S "N01043" 110 ) 
+`J ( R PZ1 1 P ) ( R R7 1 P ) ( R IC2 3 O ) ( S "N01268" 111 ) 
+`J ( R R7 2 P ) ( R D1 1 P ) ( S "N01306" 113 ) 
+`J ( R PZ1 2 P ) ( R J1 1 P ) ( R R3 2 P ) ( R C2 2 P ) ( R D1 2 P ) 
+( R T1 1 P ) ( R IC2 1 S ) ( R IC1 4 S ) ( R U2 2 P ) ( S "GND" 114 ) 
+`J ( R R6 1 P ) ( R R2 1 P ) ( R R8 1 P ) ( R J1 2 P ) ( R VR1 1 P ) 
+( R IC2 4 I ) ( R IC1 7 S ) ( R IC2 8 S ) ( R VR1 2 P ) ( S "+9V" 116 ) 
